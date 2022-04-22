@@ -1,5 +1,5 @@
 
-// problem 206 kamchiligi bor
+// problem 206 
 // function isPrime(num) {
 //   for ( var i = 2; i < num; i++ ) {
 //     if (num % i === 0) {
@@ -9,8 +9,8 @@
 //   return true;
 // }
 // function dsp(n) {
-//   let arr = [];
-//   for ( let i = 2; i < n; i+=2 ) {
+//   let arr = [2];
+//   for ( let i = 3; i < n; i+=2 ) {
 //       if ( isPrime(i) ) {
 //           arr.push(i);
 //       }
@@ -18,6 +18,8 @@
 //   console.log(arr.length);
 // }
 // dsp(32);
+
+
 
 
 
