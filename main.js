@@ -23,14 +23,12 @@
 
 
 
-// problem 207 kamchiligi bor
-// let array = ['99','2','-','3','4','5','6']
-// let result = []
-// for (let i = 0; i < array.length; i++){
-//    result.push(Number(array[i]));
+// problem 207
+// let a = "- 5 + 3 - 9 + 8";
+// function num(n) {
+//   return Function("return" + n)()
 // }
-// console.log(result);
-
+// console.log(num(a));
 
  
 // problem 208
@@ -41,15 +39,24 @@
 // getCharacterCount("Joke😊")
 
 
-// problem 209 chiqmadi
-// let a = "1bb21A2"
-// let b = [...a]
-// // console.log(...b);
-// console.log(b);
+// problem 209 
+// let string;
+// function parseint(string){
+//   if(string.match(/['0-9']/) && !string.includes('-')){
+//     return string.length
+//   }
 
-// b.forEach(item => {
-//   console.log(typeof item);
-// })
+//   if(string.match(/['0-9']/) && string.includes('-')){
+//     return '-'+ string.length - 2
+//   }
+
+//   if(!string.match(/'[0-9]'/)){
+//     return null
+//   }
+// }
+// console.log(parseint("Belgilar soni: 19ta")); 
+
+
 
 
 
